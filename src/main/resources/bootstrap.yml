@@ -7,6 +7,10 @@ spring:
         enabled: true
         service-id: CONFIG
       profile: dev
+  redis:
+    host: localhost
+    password: 123456
+    port: 6379
 eureka:
   client:
     service-url:
